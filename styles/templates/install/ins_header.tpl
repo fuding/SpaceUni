@@ -7,7 +7,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="{$lang}" class="no-js"> <!--<![endif]-->
 <head>
 	<title>{$title}</title>
-	<meta name="generator" content="2Moons">
+	<meta name="generator" content="SpaceUni">
 	<!-- 
 		This website is powered by 2Moons
 		2Moons is a free Space Browsergame initially created by Jan Kröpke and licensed under GNU/GPL.
@@ -18,13 +18,7 @@
 	<meta http-equiv="refresh" content="{$gotoinsec};URL={$goto}">
 	{/if}
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="../styles/resource/css/base/boilerplate.css">
-	<link rel="stylesheet" type="text/css" href="../styles/resource/css/ingame/main.css">
-	<link rel="stylesheet" type="text/css" href="../styles/resource/css/install/main.css">
-	<link rel="stylesheet" type="text/css" href="../styles/resource/css/base/jquery.css">
-	<link rel="stylesheet" type="text/css" href="../styles/resource/css/base/jquery.fancybox.css">
-	<link rel="stylesheet" type="text/css" href="../styles/resource/css/base/validationEngine.jquery.css">
-	<link rel="stylesheet" type="text/css" href="../styles/theme/gow/formate.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/install.css">
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="../scripts/base/jquery.js"></script>
 	<script type="text/javascript" src="../scripts/base/jquery.ui.js"></script>
@@ -46,8 +40,8 @@
 </head>
 <body id="step{$smarty.get.step|htmlspecialchars|default:'intro'}">
 <div id="tooltip" class="tip"></div>
-<div><p>&nbsp;</p></div>
-<table width="960">
-<tr>
-	<th colspan="3">{$header}</th>
-</tr>
+<div class="logo"></div>
+<div class="titre">
+	<p>Programme d'installation de SpaceUni</p>
+</div>
+<table width="960px">

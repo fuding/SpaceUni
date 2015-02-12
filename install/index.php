@@ -1,32 +1,30 @@
 <?php
 
 /**
- *  2Moons
- *  Copyright (C) 2011 Jan Kröpke
+ *  SpaceUni
+ *  Copyright (C) 2015 Danter14 
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * Ce programme est un logiciel libre: vous pouvez le redistribuer et / ou modifier
+ * Selon les termes de la Licence Publique Générale GNU publiée par
+ * La Free Software Foundation, soit la version 3 de la licence, ou
+ * (À votre choix) toute version ultérieure.
  *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ * Ce programme est distribué dans l'espoir qu'il sera utile,
+ * Mais SANS AUCUNE GARANTIE; sans même la garantie implicite de
+ * COMMERCIALISATION ou D'ADAPTATION A UN USAGE PARTICULIER. voir la
+ * GNU General Public License pour plus de détails.
  *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * Vous devriez avoir reçu une copie de la GNU General Public License
+ * Avec ce programme. Si non, voir <http://www.gnu.org/licenses/>.
  *
- * @package 2Moons
- * @author Jan Kröpke <info@2moons.cc>
- * @copyright 2009 Lucky
- * @copyright 2011 Jan Kröpke <info@2moons.cc>
+ * @package SpaceUni
+ * @author Danter14 <danter14000@gmail.com>
+ * @copyright 2015 <danter14000@gmail.com>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.5 (2011-07-31)
- * @info $Id: index.php 2680 2013-05-02 20:38:45Z slaver7 $
- * @link http://2moons.cc/
+ * @version 1.0.0 (10.02.2015)
+ * @info $Id: admin.php 10.02.2015
+ * @link http://space-univers.com/
  */
-
 if(!function_exists('spl_autoload_register')) {
 	exit("PHP is missing <a href=\"http://php.net/spl\">Standard PHP Library (SPL)</a> support");
 }
@@ -50,7 +48,7 @@ $template = new template();
 $template->assign(array(
 	'lang'			=> $LNG->getLanguage(),
 	'Selector'		=> $LNG->getAllowedLangs(false),
-	'title'			=> $LNG['title_install'].' &bull; 2Moons',
+	'title'			=> $LNG['title_install'].' &bull; SpaceUni',
 	'header'		=> $LNG['menu_install'],
 	'canUpgrade'	=> file_exists("includes/config.php") && filesize("includes/config.php") !== 0,
 ));
@@ -377,7 +375,7 @@ switch($mode)
 				}
 
 				if($error == false){
-					$done = '<tr class="noborder"><td colspan="2" class="transparent"><a href="index.php?mode=install&step=3"><button style="cursor: pointer;">'.$LNG['continue'].'</button></a></td></tr>';
+					$done = '<tr colspan="2"><td><div class="line"><a class="read-more" href="index.php?mode=install&step=3">'.$LNG['continue'].'</a></div></td></tr>';
 				} else {
 					$done = '';
 				}
@@ -550,7 +548,7 @@ switch($mode)
 					Config::update(array(
 						'timezone'			=> @date_default_timezone_get(),
 						'lang'				=> $LNG->getLanguage(),
-						'OverviewNewsText'	=> $LNG['sql_welcome'].'1.7',
+						'OverviewNewsText'	=> $LNG['sql_welcome'].'1.0',
 						'uni_name'			=> $LNG['fcm_universe'].' 1',
 						'close_reason'		=> $LNG['sql_close_reason'],
 						'moduls'			=> implode(';', array_fill(0, MODULE_AMOUNT - 1, 1))

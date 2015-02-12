@@ -1,8 +1,11 @@
 {include file="ins_header.tpl"}
 <tr>
 <td class="left">
+<div id="main">
 <h2>{$LNG.licence_head}</h2>
+<div class="separateur"></div>
 <p>{$LNG.licence_desc}</p>
+</div>
 <div id="licence">
 <h3>GNU GENERAL PUBLIC LICENSE</h3>
 <p>Version 3, 29 June 2007</p>
@@ -639,11 +642,12 @@ copy of the Program in return for a fee.</p>
 <input type="hidden" name="post" value="1"> 
 <table style="width: 100%;max-width:100%;margin-top:10px">
 	<tr>
-		<td class="transparent" width="70">
-			<input type="checkbox" name="accept">
-		</td>
-		<td class="transparent left">
-			<label>{$LNG.licence_accept}</label>
+		<td>
+            <div class="slideThree">    
+                <input type="checkbox" value="None" id="slideThree" name="accept" />
+                <label for="slideThree"></label>
+            </div>
+			<label style="margin-left: 25%;">{$LNG.licence_accept}</label>
 		</td>
 	</tr>
 	{if isset($accept)}
@@ -653,11 +657,13 @@ copy of the Program in return for a fee.</p>
 		</td>
 	</tr>
 	{/if}
-	<tr>
-		<td class="transparent" colspan="2">
-			<input type="submit" value="{$LNG.continue}">
-		</td>
-	</tr>
+    <tr>
+        <td>
+            <div class="line">
+                <input type="submit" value="{$LNG.continue}">
+            </div>
+        </td>
+    </tr>
 </table>
 </form>
 </div>

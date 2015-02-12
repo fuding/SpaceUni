@@ -1,8 +1,11 @@
 {include file="ins_header.tpl"}
 <tr>
 	<td class="left">
+	<div id="main">
 		<h2>{$LNG.req_head}</h2>
+			<div class="separateur"></div>
 		<p>{$LNG.req_desc}</p>
+	</div>
 		<table class="req border">
 			<tr>
 				<td class="transparent left"><p>{$LNG.req_php_need}</p><p class="desc">{$LNG.req_php_need_desc}</p></td>
@@ -67,7 +70,9 @@
 				<td class="transparent"><input type="text" name="path"></td>
 			</tr>
 			<tr class="noborder">
-				<td class="transparent right" colspan="2"><input type="button" value="{$LNG.req_ftp_send}" onclick="submitftp();"></td>
+				<td class="transparent right" colspan="2">
+				<input type="button" value="{$LNG.req_ftp_send}" onclick="submitftp();">
+				</td>
 			</tr>
 			</table>
 		</form>
