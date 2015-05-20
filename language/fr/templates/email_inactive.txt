@@ -1,0 +1,8 @@
+Bonjour/Bonsoir {USERNAME},
+
+Vous n'êtes pas connecté depuis {LASTDATE} sur {GAMENAME}. Si vous voulez continuer à rester un membre de notre communauté, s'il vous plaît vous connecter avec vos informations de compte, sinon votre compte sera supprimé.
+
+Si vous avez oublié votre mot de passe, puis aller à {HTTPPATH} et cliquez sur "Mot de passe oublié". Vous recevrez dans quelques minutes un e-mail avec votre nouveau mot de passe.
+
+Cordialement,
+{GAMENAME} Staff

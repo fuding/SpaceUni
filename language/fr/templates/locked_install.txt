@@ -1,0 +1,7 @@
+<h1>L'outil d'installation est verrouillé</h1>
+<p>Pour activer l'outil d'installation, le fichier ENABLE_INSTALL_TOOL doit être créé.</p>
+<ul>
+    <li>Dans le dossier includes/ , créez un fichier nommé ENABLE_INSTALL_TOOL. Le nom de fichier est sensible à la casse, mais le fichier lui-même peut être simplement un fichier vide.</li>
+</ul>
+<p>Pour des raisons de sécurité, il est fortement recommandé que vous soit renommer ou supprimer le fichier après l'opération est terminée.</p>
+<p>Comme mesure de sécurité supplémentaire, si le fichier est plus d'une heure, 2Moons sera automatiquement supprimer.</p>

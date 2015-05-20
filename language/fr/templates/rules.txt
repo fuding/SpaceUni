@@ -1,0 +1,79 @@
+<ul id="rules">
+	<li>
+		<h1>1. Comptes</h1>
+		<p> Le propriétaire d'un compte est toujours le propriétaire de l'adresse courriel associée au compte.
+<br />Un compte ne peut jamais être joué par plus d'une personne, la seule exception étant le "sitting" de compte.
+<br />Un don/échange de compte au sein d'un univers doit être fait en coopération avec le support space-odyssee.fr
+<br />Un compte ne peut changer de propriétaire que tous les 15 jours. Le nouveau propriétaire doit changer l'adresse courriel associée au compte au cours des 12 heures suivant la reprise. Vous pouvez joindre le support sur space-odyssee.fr
+<br />Si vous utilisez un proxy, il est nécessaire de prévenir votre opérateur via le support space-odyssee.fr</p>
+	</li>
+	<li>
+		<h1>2. Multi Comptes</h1>
+		<p>Chaque joueur n'a le droit de posséder qu'un seul compte par univers.
+<br />Si deux comptes ou plus sont joués de manière régulière, occasionnelle ou permanente depuis le même accès internet (par exemple dans des écoles, universités ou cyber-cafés), il est conseillé de prévenir les opérateurs de jeu de cette situation par le biais de space-odyssee.fr
+<br />Toutes les interactions entre comptes sous même IP sont autorisées exceptées celles qui mènent à un combat opposant les comptes: Espionnage, Attaque missile, Attaque groupé, Attaque normal.
+<br /><br />
+Vous pouvez être dans la même alliance et commercer (compte tenu de la règle du push).
+ <br /><br />
+Action autorisées sous même IP, système automatique anti-Multi compte.
+  <br /><br />
+Cette liste n'est pas exhaustive, elle est là en indication, si vous avez le moindre doute contactez votre opérateur.</p>
+	</li>
+	<li>
+		<h1>3. Sitting</h1>
+		<p>Le "sitting de compte" est le fait de permettre à un joueur déterminé de surveiller votre propre compte.
+<br /><br />
+Avant que le sitting ne commence, un opérateur du jeu doit être prévenu par le support space-odyssee.fr 
+<br />Un compte peut être surveillé au maximum pendant 24 heures.
+<br />Le sitting est considéré comme terminé à partir du moment où le propriétaire du compte se connecte.
+<br />Un compte ne peut être surveillé que si il ne l'a pas été au cours des 7 derniers jours et si son propriétaire s'est connecté depuis le dernier "sitting".
+<br />il ne doit pas y avoir d'attaque en cours (mode aller) , lancée à l'initiative du sitté, à la connexion du sitteur.
+<br />Durant le sitting, toutes les actions sont possibles exceptées celles menant à un combat: attaques classiques, AG, DG, Mip, etc...</p>
+	</li>
+	<li>
+		<h1>4. Bash</h1>
+		<p>Il est interdit d'attaquer la planète d'un joueur actif plus de 2 fois en 24 heures.
+<br />Cette règle est aussi valable pour les missions attaque groupé.
+<br />Les attaques avec des sondes d'espionnage et des missiles interplanétaires ne sont pas concernées par cette règle ainsi que les flottes entièrement détruites lors d'un combat. 
+<br />Le bashing d'un joueur n'est autorisé que dans le cadre de guerre entre alliances.
+<br />La guerre doit avoir été déclarée publiquement dans la section appropriée du forum selon les règles en vigueur. (Guerres : règlement )
+<br />Dans certains univers spéciaux renseignés sur le forum (space-odyssee.fr/forum), cette règle a été modifiée ou abolie.
+<br /><br />
+Le bash est levé 12h après la déclaration de guerre officielle.</p>
+	</li>
+	<li>
+		<h1>5. Push</h1>
+		<p>On parle de push quand un joueur livre ou doit livrer des ressources à un joueur ayant plus de points, sans contrepartie visible ou s'il crashe volontairement ses vaisseaux sur la défense d'un joueur ayant plus de points pour que celui-ci profite du champ de ruine ainsi créé.
+<br /><br />
+Il est interdit à tout compte de profiter de manière injuste d'un joueur ayant moins de points, au niveau des ressources.
+<br />Toute transaction doit être conclue dans un intervalle de 72h.
+<br />Pour les cas particuliers (primes...) un opérateur de jeu doit être prévenu par le biais du système de support : (space-odyssee.fr)
+<br />La répartition d'un butin (CDR + pillage au cours de l' AG) doit faire obligatoirement l'objet d'un ticket sur le support (space-odyssee.fr). Les participants d'une AG décident de la répartition. On considère participant toute personne ayant participé de manière significative à l'AG.
+<br /><br />
+Le crash de flotte est autorisé sous certaines conditions:
+<br /><br />
+Il doit obligatoirement faire l'objet d'un ticket sur le support : (space-odyssee.fr).
+<br />Le crash de flotte doit se faire dans le respect de la règle du Push et du Pull : le(s) joueur(s) plus fort(s) pourra(ont) se rembourser de ses(leurs) pertes mais aucun profit/bénéfice ne pourra être accepté.
+<br />Si vous recevez des ressources d'un joueur moins bien classé et ce, sans que vous en soyez demandeur, vous devez les renvoyer au joueur ou à l'opérateur dans un délai de 72h. Contactez votre opérateur afin qu'il puisse régler la situation.
+<br /><br />
+Les échanges de ressources en faveur d'un joueur plus fort doivent respecter les taux de commerce (1.5/1/1 minimum) pour ne pas être assimilés à du push.
+<br /><br />
+<ul>
+  
+Citation
+<li>
+Titane/Diamant: min 1.5/1 => max 3/1 <br>
+Titane/Gaz: min 1.5/1 => max 3/1   <br>
+Diamant/Gaz : min 1/1 => max 3/1
+  </li>
+</ul>
+</p>
+	</li>
+	<li>
+		<h1>6. Utilisation de scripts et exploitation de bugs</h1>
+		<p>Utiliser un bug ou une erreur de programmation de façon intentionnelle afin d'en tirer un profit personnel, ou ne pas signaler un bug est strictement interdit.
+<br />Utiliser un programme comme interface entre le joueur et son compte est prohibé.
+<br />Toute autre forme d'informations générées automatiquement dans le but d'avantager un groupe de joueurs est également interdit.
+<br />Bug & Problème : Récapitulatif</p>
+	</li>
+</ul>
